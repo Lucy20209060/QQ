@@ -1,0 +1,171 @@
+/* Empty. Add your own CSS if you like */
+.bar{
+	background-size: 0;
+}
+.active{
+	background: #f7f7f9;
+}
+.row{
+	background: #fff;
+}
+.ion-earth{
+	color: #fbd04f;
+}
+.ion-ios-location{
+	color: #f25d5d;
+}
+.ion-android-favorite{
+	color: #fbd04f;
+}
+.ion-ionic{
+	color: #f8a900;
+}
+.ion-eye{
+	color: #89d043;
+}
+
+.ion-headphone{
+	color: #31c27c;
+}
+
+.ion-person-stalker{
+	color: #2ad17b;
+}
+.ion-ios-navigate{
+	color: #f8a900;
+}
+.ion-gear-b{
+	color: #E26725;
+}
+.ion-person-add{
+	color: #4280EC;
+}
+.ion-ios-list{
+	color: #FFCE44;
+}
+.ion-ios-bookmarks{
+	color: #49ED8A;
+}
+.morefriend{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	color: #1D9DF1;
+	font-size: 16px;
+}
+.ion-ios-arrow-forward:before{
+	font-size: 20px;
+	color: #ccc;
+}
+.linkphone:before{
+	color: #363636;
+}
+.ion-android-restaurant{
+	color: #FF6932;
+}
+.ion-model-s{
+	color: #C70000;
+}
+.ion-university{
+	color: #1090F1;
+}
+.item .badge{
+	right: 15px;
+	top: 50%;
+}
+.item-avatar .assistant{
+	color: #FCC033;
+}
+.item-time{
+	position: absolute;
+	right: 15px;
+	top: 17%;
+	color: #838383;
+	font-size: 14px;
+}
+.sideScroll{
+	top: 200px;
+	
+}
+.sideMenutitle{
+	background: url('../img/car.jpg') no-repeat left center;
+	height: 200px;
+	background-size: 100%;
+}
+.sideMenutitle .title{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+	top: 73px;
+}
+.sidebottom{
+	background-size: 0;
+	background: #fff;
+	z-index: 20;
+
+}
+.sidebottom .tab-item{
+	font-size: 14px;
+	overflow: visible;
+
+}
+.tab-item-c{
+	position: absolute;
+	top: -30px;
+	right: 10px;
+	font-size: 40px;
+	color: #82F8FE;
+}
+#other{
+	border-width:0;
+	background:0;
+}
+#infoName{
+	font-size: 14px;
+}
+#me{
+	border-width:0;
+    padding-right: 72px;
+    padding-left: 72px;
+    background: 0;
+}
+
+#chathome{
+	background: url("../img/chatsbg.jpeg") no-repeat center;
+	background-size: 100% 100%;
+}
+#other p{
+	color: #000;
+	background: #ccc;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+}
+#other h2,#me h2{
+	padding-bottom: 5px;
+	
+}
+#me h2{
+	direction: rtl;
+}
+#me p{
+	float: right;
+}
+#me img{
+	position: absolute;
+	top: 16px;
+	right: 0px;
+	left: 83%;
+}
+#me p{
+	color: #000;
+	background: #40A9F9;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+}

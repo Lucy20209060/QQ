@@ -1,0 +1,23 @@
+<ion-view view-title="详情">
+  <ion-content id="chathome">
+
+
+<div class="list"  ng-repeat="x in messMessage">
+    <a class="item item-avatar" ng-repeat="a in x.dialogue" id="{{a.identity}}">
+      <img ng-src="{{a.image}}">
+      <h2 ng-bind="a.name" id="infoName"></h2>
+      <p ng-bind="a.info"></p>
+    </a>
+</div>
+
+
+
+
+  </ion-content>
+</ion-view>
+
+
+
+
+
+

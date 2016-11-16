@@ -1,0 +1,48 @@
+<ion-view view-title="电话">
+
+	<ion-content>
+	<ion-refresher pulling-text="{{refreshTime}}" on-refresh="doRefresh()"></ion-refresher>
+	<ion-list>
+
+	  <div class="bar bar-header-darks item-input-inset">
+	  <label class="item-input-wrapper">
+	    <i class="icon ion-ios-search placeholder-icon"></i>
+	    <input type="search" placeholder="搜索">
+	  </label>
+	</div>
+
+	<a class="item item-icon-left item-icon-right" href="#">
+	   <i class="icon ion-ios-list"></i>
+	   电话黄页
+	   <i class="icon ion-ios-arrow-forward"></i>
+	</a>
+
+  <a class="item item-icon-left item-icon-right" href="#">
+    <i class="icon ion-ios-bookmarks"></i>
+    通讯录
+    <i class="icon ion-ios-arrow-forward"></i>
+  </a>
+
+	<div class="item item-divider">通话记录</div>
+
+	<a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/aaa.jpg">
+      <h2>崔阳亮</h2>
+      <p> 10-3</p>
+      <i class="icon ion-ios-telephone linkphone"></i>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/jiashe.jpg">
+      <h2>贾设计</h2>
+      <p> 9-16</p>
+      <i class="icon ion-ios-telephone linkphone"></i>
+    </a>
+    
+	
+	<div class="morefriend">
+	  更多QQ电话好友...
+	</div>
+
+	</ion-list>
+	</ion-content>
+</ion-view>

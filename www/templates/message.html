@@ -1,0 +1,102 @@
+<ion-view view-title="消息">
+
+	<ion-content>
+	<ion-refresher pulling-text="{{refreshTime}}" on-refresh="doRefresh()"></ion-refresher>
+	<ion-list>
+
+	  <div class="bar bar-header-darks item-input-inset">
+	  <label class="item-input-wrapper">
+	    <i class="icon ion-ios-search placeholder-icon"></i>
+	    <input type="search" placeholder="搜索">
+	  </label>
+	</div>
+
+
+
+  <a class="item item-avatar  item-icon-right" ng-repeat="mess in messMessage" ng-click="messageDetils(mess)">
+    <img ng-src="{{mess.image}}">
+    <h2 ng-bind="mess.name"></h2>
+    <p ng-bind="mess.message"></p>
+    <span class="item-time" ng-bind="mess.time"></span>
+    <span class="badge badge-assertive" ng-if="mess.Boole" ng-bind="mess.mesNum"></span>
+  </a>
+
+
+	<!--<a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/2015.png">
+      <h2>前端集中营</h2>
+      <p>子涵：[生气]</p>
+      <span class="item-time">22:01</span>
+      <span class="badge badge-assertive">32</span>
+    </a>
+     <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/tu.jpg">
+      <h2>北京H5开发交流</h2>
+      <p>Clearlove：[文件]_BUC...</p>
+      <span class="item-time">21:42</span>
+      <span class="badge badge-assertive">13</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic7.png">
+      <h2>群助手</h2>
+      <p class="assistant">[1个群有新消息]</p>
+      <span class="item-time">21:24</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/aaa.jpg">
+      <h2>崔阳亮</h2>
+      <p>嗯</p>
+      <span class="item-time">8:26</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic7.png">
+      <h2>服务号</h2>
+      <p>QQ天气: 【北京】晴-2°/13°,06:05...</p>
+      <span class="item-time">7:02</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic4.jpg">
+      <h2>长剑腥腥挂壁</h2>
+      <p>[图片]</p>
+      <span class="item-time">星期五</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic.jpeg">
+      <h2>10计科驻五楼楼道联委会</h2>
+      <p>崔巍：[图片]</p>
+      <span class="item-time">星期五</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic7.png">
+      <h2>群通知</h2>
+      <p>肖艺 邀请你加入群 【读协之...</p>
+      <span class="item-time">星期三</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic2.jpg">
+      <h2>张艳东</h2>
+      <p>哎</p>
+      <span class="item-time">星期二</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic6.jpg">
+      <h2>崔巍</h2>
+      <p>转了</p>
+      <span class="item-time">11-20</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic3.jpg">
+      <h2>YUMI</h2>
+      <p>[语音]</p>
+      <span class="item-time">11-15</span>
+    </a>
+    <a class="item item-avatar  item-icon-right" href="#">
+      <img src="../img/pic5.jpg">
+      <h2>黄建</h2>
+      <p>好的</p>
+      <span class="item-time">11-14</span>
+    </a> -->
+
+	</ion-list>
+	</ion-content>
+</ion-view>
